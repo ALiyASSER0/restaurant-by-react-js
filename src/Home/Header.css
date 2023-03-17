@@ -1,0 +1,55 @@
+header{
+    background:url("./../assts/Screenshot\ 2023-01-23\ 225132.png") center no-repeat;
+    background-size: cover ;
+width: 100%;
+max-width:100%;
+text-align: left;
+height: 670px;
+overflow: hidden;
+padding:25px 0px;
+margin-top: 0px;
+}
+header .row{
+    margin: 60px 0px;
+}
+header h2{
+    color: #7c0f28;
+    font-size: 55px;
+    line-height: 50px;
+    font-family: 'Abril Fatface', cursive;
+width: 80%;
+}
+header p{
+    color:#333 ;
+    font-family: 'Tajawal',sans-serif;
+margin: 15px 0px ;
+}
+header button {
+    width: 150px;
+    height: 50px;
+    background-color:#7c0f28 ;
+    border: 1px solid #7c0f28;
+    box-sizing: border-box;
+    text-align: center;
+    color: #fff;
+    margin:20px 10px 20px 0px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.second{
+    background-color: #fff;
+    color:#000 ; 
+}
+
+
+.first:hover{
+    transition: 0.2s ease-in-out;
+    background-color: #fff;
+    color:#ac2947;
+} 
+.second:hover{
+    transition: 0.2s ease-in-out;
+    background-color: #ac2947;
+    color:#fff; 
+}
+
